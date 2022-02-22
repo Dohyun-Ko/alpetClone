@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/4a116afb65.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/login.css">
+
+</head>
+
+<body>
+
+    <div class="header">
+        <i class="fa-solid fa-angle-left"></i>
+        <h1>회원가입</h1>
+    </div>
+    <div class="termsOfService">
+
+    </div>
+    <div class="signUp">
+        <span id="id"><i class="fa-regular fa-user"></i> <input placeholder="ID" type="text" ></span>
+        <h5>영문+숫자</h5>
+        <span id="pw"><i class="fa-regular fa-lock-keyhole"></i><input placeholder="PW" type="password"></span>
+        <h5>영문+숫자 8글자 이상</h5>
+        <span id="rePw"><i class="fa-regular fa-lock-keyhole"></i><input placeholder="비밀번호 확인" type="password"></span>
+        <span id="phone"><i class="fa-solid fa-phone"></i> <input placeholder="전화번호" type="text"></span>
+        <span id="email"><i class="fa-regular fa-envelope"></i><input placeholder="이메일" type="text"></span>
+        <h5>메일은 아이디를 분실하였을 때 확인을 위해 사용됩니다.</h5>
+        <button>회원가입하기</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="/__/firebase/8.6.5/firebase-app.js"></script>
+    <script src="/__/firebase/8.6.5/firebase-auth.js"></script>
+    <script src="/__/firebase/8.6.5/firebase-firestore.js"></script>
+    <script src="/__/firebase/8.6.5/firebase-storage.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyCRCCJ3wUbyIqvwXXsE2eqyHQeg9b_DCBw",
+            authDomain: "totalnew-aa448.firebaseapp.com",
+            projectId: "totalnew-aa448",
+            storageBucket: "totalnew-aa448.appspot.com",
+            messagingSenderId: "667891937716",
+            appId: "1:667891937716:web:e0ab52af550e5cd63702e1",
+            measurementId: "G-Q18QQHML2D"
+        };
+
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="js/signUp.js">
+
+    </script>
+
+</body>
+
+</html>

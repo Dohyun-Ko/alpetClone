@@ -1,0 +1,22 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+
+}
+.header i {
+}
+.header h1{
+    display: inline-block;
+}
+.signUp {
+    text-align: center;
+    margin-top: 500px;
+}
+.signUp span {
+    display: block;
+}
+.signUp span input{
+    display: inline-block;
+}
